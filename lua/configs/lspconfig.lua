@@ -7,7 +7,11 @@ local servers = {
   html = {},
   cssls = {},
   pyright = {},
-  sqlls = {}}
+  bashls = {},
+  gopls = {},
+  clangd = {},
+  sqlls = {},
+}
 
 for name, opts in pairs(servers) do
   opts.on_attach = nvlsp.on_attach

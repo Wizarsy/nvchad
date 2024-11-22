@@ -1,4 +1,4 @@
-local opts = {
+return {
   ensure_installed = {
     "bash",
     "c",
@@ -30,4 +30,4 @@ local opts = {
   indent = { enable = true },
 }
 
-require("nvim-treesitter.configs").setup(opts)
+-- require("nvim-treesitter.configs").setup(opts)
